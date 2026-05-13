@@ -1,0 +1,38 @@
+{
+  "description": "Choose your starting point: hashtags #️⃣, profiles 😎, search results 🔍 or specific tiktoks 🔗. To try the scraper, just add a hashtag, then indicate how many tiktoks you want extracted in the <strong>💯 Number of videos</strong> and hit the <strong>▷ Start</strong> button. Here’s a <a href='https://www.cafehook.com/' target='_blank' rel='noopener'>tutorial to help</a>.",
+  "b": "startURLs",
+  "properties": [
+    {
+      "title": "Start URLs",
+      "name": "startURLs",
+      "type": "array",
+      "editor": "requestList",
+      "description": "The URLs of the website to scrape",
+      "default": [
+        {
+          "url": "https://mmm.isunon.com/news/?pg=1"
+        },
+        {
+          "url": "https://mmm.isunon.com/news/?pg=2"
+        }
+      ],
+      "required": true
+    },
+    {
+      "title": "Maximum",
+      "name": "maximum",
+      "type": "integer",
+      "editor": "number",
+      "description": "Maximum number per page",
+      "default": 4
+    },
+    {
+      "title": "Download Images",
+      "name": "download_images",
+      "type": "boolean",
+      "editor": "checkbox",
+      "description": "Does the collected content include images",
+      "default": false
+    }
+  ]
+}

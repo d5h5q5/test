@@ -1,0 +1,17 @@
+[
+  {
+  "name":"title",
+   "type":"string",
+   "description":"标题"
+  },
+ {
+  "name":"publish_time",
+   "type":"string",
+   "description":"时间"
+  },
+ {
+  "name":"category",
+   "type":"string",
+   "description":"分类"
+  }
+]
